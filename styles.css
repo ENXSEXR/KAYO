@@ -1,0 +1,54 @@
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    line-height: 1.6;
+    background-color: #f9fafb;
+    color: #333;
+}
+.hero {
+    background: linear-gradient(135deg, #7C3AED, #4C1D95);
+    color: white;
+    padding: 60px 20px;
+    text-align: center;
+}
+.cta-button {
+    display: inline-block;
+    margin-top: 20px;
+    padding: 10px 20px;
+    background: #ffffff;
+    color: #7C3AED;
+    text-decoration: none;
+    border-radius: 5px;
+}
+.section {
+    padding: 40px 20px;
+    max-width: 800px;
+    margin: auto;
+}
+form input, form button {
+    display: block;
+    width: 100%;
+    margin: 10px 0;
+    padding: 10px;
+}
+form button {
+    background: #7C3AED;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+form button:hover {
+    background: #4C1D95;
+}
+.footer {
+    text-align: center;
+    padding: 20px;
+    background: #eee;
+}
+.footer a {
+    color: #333;
+    margin: 0 10px;
+    text-decoration: none;
+}
